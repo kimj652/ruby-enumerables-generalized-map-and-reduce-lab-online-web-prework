@@ -14,6 +14,6 @@ def reduce(array, starting = 0)
   end
   if y == nil
       return false
-    end
+  end
   return y
 end

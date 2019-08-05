@@ -8,6 +8,7 @@ def map(array)
 end
 
 def reduce(array, starting = 0)
+  y = 0
   array.each do |x|
     y = yield(x,starting)
   end 

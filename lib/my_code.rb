@@ -8,6 +8,6 @@ def map(array)
 end
 
 def reduce(array, starting = 0)
-  y = array.each { }
+  y = array.each { |i| yield(i,starting)}
   
 end

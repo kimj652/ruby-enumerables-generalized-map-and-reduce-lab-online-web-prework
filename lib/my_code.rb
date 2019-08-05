@@ -13,6 +13,7 @@ def reduce(array, starting = 0)
     starting = y
     if x == nil
       return false
+    end
   end
   return y
 end

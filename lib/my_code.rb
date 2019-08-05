@@ -8,8 +8,8 @@ def map(array)
 end
 
 def reduce(array, starting = 0)
-  y = 0
-  for x in array do 
+  i = 0
+  while i < array.length do
     z = yield(x,starting)
     y 
   end

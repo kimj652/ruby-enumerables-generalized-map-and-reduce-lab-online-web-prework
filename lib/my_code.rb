@@ -12,6 +12,7 @@ def reduce(array, starting = 0)
     y = yield(x, starting)
     starting = y
     if y == nil
+      return false
   end
   return y
 end

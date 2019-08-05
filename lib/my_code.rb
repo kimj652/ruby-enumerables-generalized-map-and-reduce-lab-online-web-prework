@@ -10,6 +10,6 @@ end
 def reduce(array, starting = 0)
   y = 0
   for x in array do 
-end
+  end
   return y
 end

@@ -8,7 +8,7 @@ def map(array)
 end
 
 def reduce(array, starting = 0)
-  for x in array do 
+  for (i = 0; i < array.length; i++)
     y = yield(x,starting)
   end 
   return y

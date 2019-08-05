@@ -10,7 +10,7 @@ end
 def reduce(array, starting = 0)
   i = 0
   while i < array.length do
-    z = yield(x,starting)
+    y = yield(x,starting)
     y 
   end
   return y

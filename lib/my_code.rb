@@ -11,6 +11,7 @@ def reduce(array, starting = 0)
   for x in array do
     y = yield(x, starting)
     starting = y
+    if y == nil
   end
   return y
 end

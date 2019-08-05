@@ -10,6 +10,8 @@ end
 def reduce(array, starting = 0)
   y = 0
   for x in array do 
+    z = yield(x,starting)
+    y 
   end
   return y
 end

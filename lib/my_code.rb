@@ -9,10 +9,7 @@ end
 
 def reduce(array, starting = 0)
   y = 0
-  array.each { |i| 
-  
-  y = yield(i,starting) 
-    
-  }
+  for x in array do 
+end
   return y
 end

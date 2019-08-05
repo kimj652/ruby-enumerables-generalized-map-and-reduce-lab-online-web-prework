@@ -8,6 +8,6 @@ def map(array)
 end
 
 def reduce(array, starting = 0)
-  i = 0
+  y = array.each(yield)
   
 end

@@ -8,6 +8,8 @@ def map(array)
 end
 
 def reduce(array, starting = 0)
-  y = 0
+  for x in array do
+    new.push(yield(x))
+  end 
   
 end

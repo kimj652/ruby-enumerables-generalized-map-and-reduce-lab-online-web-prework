@@ -9,7 +9,7 @@ end
 
 def reduce(array, starting = 0)
   for x in array do
-    yield
+    yield(x)
   end 
   
 end
